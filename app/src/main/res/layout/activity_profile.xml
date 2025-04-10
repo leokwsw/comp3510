@@ -33,6 +33,8 @@
             android:padding="16dp">
 
             <!-- Profile Picture -->
+
+            <!-- Username -->
             <ImageView
                 android:id="@+id/profileImage"
                 android:layout_width="120dp"
@@ -42,7 +44,6 @@
                 android:scaleType="centerCrop"
                 android:src="@android:drawable/ic_menu_gallery" />
 
-            <!-- Username -->
             <TextView
                 android:id="@+id/username"
                 android:layout_width="match_parent"

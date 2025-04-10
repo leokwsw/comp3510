@@ -45,9 +45,9 @@
         <ImageView
             android:id="@+id/productImage"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="400dp"
             android:scaleType="centerCrop"
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/ic_menu_gallery"
             android:background="#CCCCCC" />
 
         <!-- Product Info -->
@@ -61,7 +61,7 @@
                 android:id="@+id/productTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="iPhone 13 Pro Max 256GB"
+                android:text="Bag"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000000"
@@ -88,7 +88,7 @@
                 android:id="@+id/productDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Selling my iPhone 13 Pro Max. Excellent condition, battery health 95%, no scratches. Comes with original box and charger."
+                android:text="A beautiful bag."
                 android:textColor="#444444"
                 android:textSize="16sp"
                 android:lineSpacingExtra="4dp" />
