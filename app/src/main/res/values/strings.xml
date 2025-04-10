@@ -1,8 +1,3 @@
 <resources>
-<string name="app_name">comp3510</string>
-
-<string-array name="payment_methods">
-    <item>Credit Card</item>
-    <item>PayPal</item>
-</string-array>
+    <string name="app_name">comp3510</string>
 </resources>
