@@ -109,7 +109,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
-        app:itemIconTint="@color/selector_nav_color"
-        app:itemTextColor="@color/selector_nav_color"
         app:menu="@menu/bottom_nav_menu" />
 </LinearLayout>
