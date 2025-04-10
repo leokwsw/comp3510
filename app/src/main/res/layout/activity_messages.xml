@@ -39,7 +39,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:scaleType="centerCrop"
-                android:src="@android:drawable/ic_menu_gallery"
+                android:src="@drawable/ic_user"
                 android:layout_marginEnd="16dp" />
 
             <!-- Message Content -->
@@ -88,14 +88,15 @@
             android:focusable="true">
 
             <!-- Profile Image -->
+
+            <!-- Message Content -->
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_marginEnd="16dp"
                 android:scaleType="centerCrop"
-                android:src="@android:drawable/ic_menu_gallery"
-                android:layout_marginEnd="16dp" />
+                android:src="@drawable/ic_user" />
 
-            <!-- Message Content -->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
