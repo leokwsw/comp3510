@@ -5,5 +5,7 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Comp3510" parent="Base.Theme.Comp3510" />
+<!--    <style name="Theme.Comp3510" parent="Base.Theme.Comp3510" />-->
+    <style name="Theme.Comp3510" parent="Theme.MaterialComponents.Light.DarkActionBar" />
+
 </resources>

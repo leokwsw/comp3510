@@ -1,17 +1,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/nav_home"
+    <item
+        android:id="@+id/nav_home"
         android:icon="@drawable/ic_menu_view"
         android:title="Home" />
-    <item android:id="@+id/nav_messages"
+    <item
+        android:id="@+id/nav_messages"
         android:icon="@drawable/ic_dialog_email"
         android:title="Messages" />
-    <item android:id="@+id/nav_publish"
+    <item
+        android:id="@+id/nav_publish"
         android:icon="@drawable/ic_input_add"
         android:title="Post" />
-    <item android:id="@+id/nav_orders"
+    <item
+        android:id="@+id/nav_orders"
         android:icon="@drawable/ic_menu_agenda"
         android:title="Orders" />
-    <item android:id="@+id/nav_profile"
+    <item
+        android:id="@+id/nav_profile"
         android:icon="@drawable/ic_menu_myplaces"
         android:title="Profile" />
 </menu>
