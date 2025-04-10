@@ -2,18 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical"
-    android:background="#FFFFFF">
+    android:paddingTop="?attr/actionBarSize">
 
     <!-- Title Bar -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="#3F51B5"
+        android:gravity="center_vertical|center"
         android:text="Login"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:gravity="center_vertical|center"
         android:textStyle="bold" />
 
     <!-- Content Area -->
@@ -34,32 +35,32 @@
                 android:id="@+id/editEmailLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@android:drawable/edit_text"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
-                android:textColor="#000000"
-                android:textColorHint="#888888"
-                android:background="@android:drawable/edit_text"
                 android:padding="12dp"
-                android:layout_marginBottom="12dp" />
+                android:textColor="#000000"
+                android:textColorHint="#888888" />
 
             <EditText
                 android:id="@+id/editPasswordLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@android:drawable/edit_text"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:textColor="#000000"
-                android:textColorHint="#888888"
-                android:background="@android:drawable/edit_text"
                 android:padding="12dp"
-                android:layout_marginBottom="12dp" />
+                android:textColor="#000000"
+                android:textColorHint="#888888" />
 
             <Button
                 android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
                 android:backgroundTint="#4CAF50"
+                android:text="Login"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -76,43 +77,43 @@
                 android:id="@+id/editUsernameRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Username"
-                android:textColor="#000000"
-                android:textColorHint="#888888"
+                android:layout_marginBottom="12dp"
                 android:background="@android:drawable/edit_text"
+                android:hint="Username"
                 android:padding="12dp"
-                android:layout_marginBottom="12dp" />
+                android:textColor="#000000"
+                android:textColorHint="#888888" />
 
             <EditText
                 android:id="@+id/editEmailRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@android:drawable/edit_text"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
-                android:textColor="#000000"
-                android:textColorHint="#888888"
-                android:background="@android:drawable/edit_text"
                 android:padding="12dp"
-                android:layout_marginBottom="12dp" />
+                android:textColor="#000000"
+                android:textColorHint="#888888" />
 
             <EditText
                 android:id="@+id/editPasswordRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@android:drawable/edit_text"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:textColor="#000000"
-                android:textColorHint="#888888"
-                android:background="@android:drawable/edit_text"
                 android:padding="12dp"
-                android:layout_marginBottom="12dp" />
+                android:textColor="#000000"
+                android:textColorHint="#888888" />
 
             <Button
                 android:id="@+id/btnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Register"
                 android:backgroundTint="#FF9800"
+                android:text="Register"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -122,25 +123,25 @@
             android:id="@+id/switchToRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Don't have an account? Register here"
-            android:textColor="#3F51B5"
-            android:textSize="14sp"
-            android:gravity="center"
             android:layout_marginTop="12dp"
             android:clickable="true"
-            android:focusable="true" />
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Don't have an account? Register here"
+            android:textColor="#3F51B5"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/switchToLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
             android:text="Already have an account? Login here"
             android:textColor="#3F51B5"
             android:textSize="14sp"
-            android:gravity="center"
-            android:layout_marginTop="12dp"
-            android:visibility="gone"
-            android:clickable="true"
-            android:focusable="true" />
+            android:visibility="gone" />
     </LinearLayout>
 </LinearLayout>
